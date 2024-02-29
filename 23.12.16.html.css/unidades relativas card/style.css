@@ -1,0 +1,35 @@
+/* .container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+  border: 2px darkcyan solid;
+}
+
+.card{
+  width: 250px;
+  height: 25px;
+  margin: 10px;
+  background-color: aqua;
+  min-width: 40%;
+} */
+
+
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 75vw; /*75% del ancho de la pantalla*/
+  min-height: 50vh;/*50% del alto de la pantalla*/
+  border: 2px darkcyan solid;
+}
+
+.card{
+  width: 250px;
+  height: 25px;
+  margin: 10px;
+  background-color: aqua;
+  min-width: 40%;
+}
+

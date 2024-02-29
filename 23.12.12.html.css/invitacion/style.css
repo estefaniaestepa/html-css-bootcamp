@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(img/auriculares.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+.imagen{
+    width: 1200px;
+    height: 1200px;
+    opacity: .1;
+}
+
+.container{
+    display:flex;
+    color:blueviolet;
+    flex-direction: column-reverse;
+    margin-top: -1198px;
+    align-items: center;
+}
+
+.container-1{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:blueviolet;
+}
+
+.border{
+    border: 2px white solid
+}

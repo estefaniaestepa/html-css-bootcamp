@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario registro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <h2 class="title">Formulario de registro</h2>
+      <label for="nombre">Nombre</label><br />
+      <input type="text" id="nombre" class="input-myform" name="nombre" placeholder="Ingrese su Nombre" /><br />
+      <label for="apellido1">Primer Apellido</label><br />
+      <input type="text" id="apellido1" class="input-myform" name="apellido1"
+        placeholder="Ingrese su Primer Apellido" /><br />
+      <label for="apellido2">Segundo Apellido</label><br />
+      <input type="text" id="apellido2" class="input-myform" name="apellido2"
+        placeholder="Ingrese su Segundo Apellido" /><br />
+      <label for="telefono">Teléfono</label><br />
+      <input type="text" id="telefono" class="input-myform" name="telefono" placeholder="Ingrese su Teléfono" /><br />
+      <label for="email">Email</label><br />
+      <input type="text" id="email" name="email" placeholder="Ingrese su Email" /><br />
+      <!--  <label for="text">Contraseña</label><br />
+        <input
+          type="textarea"
+          id="password"
+          name="password"
+          placeholder="Ingrese su Contraseña"
+        /><br /> -->
+      <h3>¿Eres mayor de edad?</h3>
+      <label for="mayor">SI</label>
+      <input type="radio" id="mayor" class="input-myform" name="mayor" value="yes" />
+      <label for="mayor">NO</label>
+      <input type="radio" id="menor" class="input-myform" name="mayor" value="no" /><br />
+      <!--   <h3>De acuerdo con términos y condiciones</h3>
+        <br /> -->
+      <div class="boton">
+        <input class="button" type="submit" onclick="checkForm()" value="Registrar" /><br />
+       <!--  <h3>¿Ya tengo cuenta?</h3> -->
+      </div>
+    </div>
+  </form>
+
+  <script>
+    function checkForm() {
+      const nombre = document.querySelector("#nombre");
+      const apellido1 = document.querySelector("#apellido1");
+      const apellido2 = document.querySelector("#apellido2");
+      const email = document.querySelector("#email");
+      const telefono = document.querySelector("#nombre");
+      const mayor = document.querySelector("#nombre");
+
+      if (
+        nombre.value !== "" &&
+        apellido1.value !== "" &&
+        apellido2.value !== "" &&
+        email.value !== "" &&
+        telefono.value !== "" &&
+        mayor.value
+      ) {
+        alert("es correcto");
+      } else {
+        alert("error");
+      }
+    }
+  </script>
+</body>
+
+</html>

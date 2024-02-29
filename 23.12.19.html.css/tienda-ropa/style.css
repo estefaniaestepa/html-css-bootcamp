@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 50px;
+}
+
+.tshirt{
+
+  margin: 0 auto;
+}
+
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 197px;
+  margin-top: 50px;
+}
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: -1050px;
+}
+
+.container-3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  margin-top: -1103px;
+  margin-right: 167px;
+}
+
+.tshirt img{
+  width: 250px;
+}
+

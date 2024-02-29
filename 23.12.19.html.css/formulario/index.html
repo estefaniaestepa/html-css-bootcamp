@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form>
+
+      <div class="image">
+        <img src="monkey.jpg" height="180px">
+      </div>
+      <div class="container">
+
+        <h2 class="title">Welcome to Mailchimp</h2>
+        <label for="nombre">Username</label><br />
+        <input type="text" id="nombre" class="input-myform" name="nombre" placeholder="Username" /><br />
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" placeholder=" Email" /><br />
+        <label for="text">Password</label><br />
+        <input type="textarea" id="password" name="password" placeholder="Password" /><br />
+
+        <ul>
+          <li>One lowercase character</li>
+          <li>One uppercase character</li>
+          <li>Oner number</li>
+        </ul>
+
+        <ul class="derecha">
+          <li>One special character</li>
+          <li>8 characters minimum</li>
+        </ul>
+
+        <div class="envio">
+          <input class="button" type="submit" onclick="checkForm()" value="Registrar" /><br />
+          <div class="checklist">
+            <input value="1" type="checkbox" class="checkbox" />
+            <label>
+              <p>
+                I don't want to recibe emails abaout new
+                malchimp products, best practices, or especial offers
+              </p><br>
+            </label>
+          </div>
+        </div>
+        <div class="policity">
+          <p>
+            By clicking the"Sing Up" button, you are creating a Mailchip account, and you agree to mailchips´s <a
+              href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+    </form>
+
+  </body>
+
+  </html>

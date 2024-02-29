@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.titular {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.super-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.articulo {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.container {
+  background-color: #F0E1AF;
+  color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  min-width: 374px;
+  max-width: 500px;
+  margin: 10px;
+}
+
+
+

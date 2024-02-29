@@ -1,0 +1,39 @@
+.spain-color {
+    height: 50px;
+    width: 120px;
+}
+
+.france-color {
+    height: 150px;
+    width: 40px;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: cadetblue;
+}
+.white {
+    background-color: cornsilk;
+}
+
+.france {
+    margin-top: 20px;
+    position: relative;
+}
+
+.end {
+    position: relative;
+    left: 80px;
+    top: -300px;
+}
+
+.middle {
+    position: relative;
+    top: -150px;
+    left: 40px;
+}

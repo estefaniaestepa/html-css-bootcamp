@@ -1,0 +1,210 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7a7a7a;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 2rem 1rem;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*MENU-1*/
+
+.container-img-index {
+  background-image: url("img/logo.SVG");
+  height: 100%;
+}
+
+.logo {
+  margin: 20px;
+
+}
+
+.header-menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.header-menu a {
+  color: #7a7a7a;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.header-menu a:hover {
+  border-bottom: 1px solid white;
+  text-decoration: underline 2px solid blue;
+  color: black;
+}
+
+/*MENU-2*/
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-bottom: 1px #7a7a7a solid;
+}
+
+.subcontainer-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.subcontainer-2 h2 {
+  font-size: 20px;
+}
+
+.subcontainer-2 h3 {
+  font-size: 16px;
+}
+
+/*MENU-3*/
+
+.menu {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li{
+  margin:10px;
+}
+
+.menu li a {
+  color: #7a7a7a;
+  text-decoration: none;
+  border: 1px solid #7a7a7a;
+  padding: 10px;
+}
+
+.menu li a:hover{
+  border: 1px solid black;
+  color:black;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h2{
+  font-size: 15px;
+  color: black;
+}
+
+ .menu-car {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-car ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.menu-car a {
+  color: #7a7a7a;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.menu-car a:hover {
+  border-bottom: 1px solid white;
+  text-decoration: underline 4px solid #262626;
+
+  color: black;
+}
+
+/*COCHES*/
+
+#BMW-i{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#BMW-i img{
+  width: 300px;
+  
+}
+
+#BMW-i h2{
+ font-size: 16px;
+  padding: 20px;
+}
+
+.title{
+  font-size: 16px;
+  text-align: center;
+  margin-right: 1108px;
+  margin-bottom: -67px;
+}
+
+#X{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#X img{
+  width: 300px;
+  
+}
+
+#X h2{
+ font-size: 16px;
+  padding: 20px;
+}
+
+#M{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#M img{
+  width: 300px;
+  
+}
+
+#M h2{
+ font-size: 16px;
+  padding: 20px;
+}
+
+img:hover{
+  transform: scale(1.2);
+  transition: transform .4s;
+}

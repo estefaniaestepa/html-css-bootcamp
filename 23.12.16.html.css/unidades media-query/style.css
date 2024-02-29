@@ -1,0 +1,34 @@
+
+/* GENERAL */
+
+.container {
+    background-color: red;
+    height: 300px;
+}
+
+/* MOVIL */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 250px; 
+    } 
+}
+
+/* pc */
+
+@media screen and (min-width: 980px ){
+    .container {
+        width: 90%;
+        background-color: blue; 
+    }
+}
+
+
+/* TABLET*/
+
+@media screen and (min-width: 577px) and (max-width: 979px) {
+    .container {
+        width: 600px;
+        background-color: pink; 
+    }
+}
+

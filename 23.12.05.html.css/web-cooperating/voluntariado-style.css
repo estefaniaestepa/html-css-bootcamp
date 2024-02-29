@@ -1,0 +1,61 @@
+body{
+    font-size: 18px;
+}
+
+header{
+    background-color: rgb(161, 42, 42);
+    padding: 2rem 1rem;
+    background-image: url(img/principal.jpg);
+    height: 800px;
+}
+
+.ancho {
+    width: 1170px;
+    margin: 0 auto;
+  
+}
+
+.menu :hover{
+    background-color:  #C0BCBC;
+    cursor: pointer;
+    transition: box-shadow 0.3s aease;
+    text-align: center;
+}
+
+.menu{
+    background-color: transparent;
+    text-align: right;
+    width: 90%;
+    font-size: 22px;
+}
+
+.border{
+    border: white 2px solid;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu a{
+    color: white;
+    background-color: rgb(161, 42, 42);
+}
+
+h2{
+    background-color: rgb(161, 42, 42);
+    text-align: center; 
+    font-weight: 700;
+    color: white;
+    text size: 80px;
+    padding: 30px;
+}
+
+p{
+    text size: 16
+    color: #444;
+}
+
+ul{
+    bold: ;
+}

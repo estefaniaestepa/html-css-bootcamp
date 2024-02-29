@@ -1,0 +1,38 @@
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple{
+  background-color: blueviolet;
+}
+
+.container {
+  padding-top: 20px;
+  min-width: 390px;
+  max-width: 721px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  margin: 10px; 
+}  

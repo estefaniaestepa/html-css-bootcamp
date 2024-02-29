@@ -1,0 +1,20 @@
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin: 5px;
+}
+
+.horizontal {
+    display: flex;
+}
+
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}

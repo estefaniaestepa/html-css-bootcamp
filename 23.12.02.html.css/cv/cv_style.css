@@ -1,0 +1,18 @@
+body{
+    background-color: burlywood;
+}
+
+table-content {
+    Border: 1px solid red;
+}
+
+#page-tiltle {
+    Font-size: 18px;
+    Font-weight: 700;
+    Font-family: arial;
+    }
+
+    .table-content td {
+        Border: 1px solid purple;
+        }
+     

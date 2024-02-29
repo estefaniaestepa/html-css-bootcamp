@@ -1,0 +1,505 @@
+body {
+  background-color: #101010;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  padding: 2rem 1rem;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*MENU*/
+.header-rrss {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+}
+
+.header-rrss ul {
+  list-style-type: none;
+  display: flex;
+  gap: 35px;
+  flex-direction: row;
+}
+
+.header-rrss img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.container {
+  width: 100%;
+  height: 600px;
+}
+
+.container-img-index {
+  background-image: url("img/ASOKO_VILA-REAL_FOTO_2-418a5825.webp");
+  height: 100%;
+}
+
+.header-menu {
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.header-menu a {
+  color: white;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.header-menu a:hover {
+  border-bottom: 1px solid white;
+}
+
+.logo img {
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+}
+
+/*CONTENIDO PRINCIPAL*/
+.restaurante {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 259px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.restaurante-s {
+  border-radius: 5px;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  font-size: 24px;
+  border: white;
+  text-align: center;
+}
+
+.restaurante button:hover {
+  background-color: red;
+}
+
+.restaurante-r {
+  border-radius: 5px;
+  align-items: center;
+  color: red;
+  padding: 10px;
+  font-size: 24px;
+  border: red;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px red solid;
+}
+
+button.restaurante-r:hover {
+  color: white;
+}
+
+.container-izquierda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1434px;
+  margin-left: 10%;
+  margin-top: 107px;
+  margin-bottom: 118px;
+  gap: 50px;
+}
+
+.asoko {
+  color: white;
+  font-weight: 700;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.mitad,
+img {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  transition: all 0.7s;
+}
+
+.slider {
+  width: 700px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slider input[type="radio"] {
+  display: none;
+
+}
+
+.slider input[type="radio"]:checked~img {
+  opacity: 1;
+}
+
+.slider input[type="radio"]+label {
+  position: relative;
+  z-index: 50;
+  margin: 10px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.slider input[type="radio"]:checked~label {
+  background: black;
+  border: 2px solid white;
+}
+
+.titulo-rest {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-top: 70px;
+}
+
+.multirest {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-pueblos {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.imagen-pueblos {
+  width: 350px;
+}
+
+.contenedor-pueblos img:hover {
+  transform: scale(1.09);
+}
+
+.content h3 {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+}
+
+.events {
+  color: white;
+  font-weight: 700;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.container-izq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1434px;
+  margin-left: 10%;
+  margin-top: 107px;
+  margin-bottom: 118px;
+  gap: 50px;
+}
+
+.localizacion {
+  color: white;
+  font-weight: 700;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.cookies {
+  color: white;
+  font-weight: 700;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 70px;
+}
+
+
+
+
+/*CARTA*/
+.carta-completa {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 70px;
+}
+
+.c-red {
+  border-radius: 5px;
+  align-items: center;
+  color: red;
+  padding: 10px;
+  font-size: 12px;
+  border: red;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px red solid;
+}
+
+.c-white {
+  border-radius: 5px;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+  border: white;
+  text-align: center;
+}
+
+.varias-cartas {
+  justify-content: center;
+  display: flex;
+}
+
+.varias-cartas button:hover {
+  background-color: red;
+}
+
+.varias-cartas button.c-red,
+.varias-cartas button.c-white {
+  margin: 0 10px;
+}
+
+button.c-red:hover {
+  color: white;
+}
+
+.carta p {
+  color: white;
+  font-size: 20px;
+}
+
+.carta h3 {
+  color: rgb(164, 48, 23);
+  font-size: 20px;
+}
+
+.principal.carta {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+  width: 30%;
+}
+
+.columna hr {
+  border: 1px white solid;
+  margin-top: -33px;
+}
+
+/*PAGINA RESTAURANTES*/
+
+.restaurantes-1-2 {
+  display: flex
+}
+
+
+.restaurantes-1-2 img {
+  width: 400px;
+  height: 400px;
+}
+
+.restaurantes-1-2 h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.rest1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.rest2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-left: -378px;
+}
+
+/*BLOG*/
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.blog img {
+  height: 800px;
+  width: 800px;
+  align-items: center;
+}
+
+.blog h2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.blog p {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(164, 48, 23);
+  text-align: justify;
+}
+
+.blog h1 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+/*RESERVAS*/
+
+.container-reservas ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  float: inline-end;
+}
+
+div.acceder #login {
+  display: inline-block;
+  font-size: 18px;
+  padding: 1px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+div.acceder #login-content {
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 130px;
+  right: -355px;
+  z-index: 999;
+  background-color: white;
+  padding: 21px;
+  height: 349px;
+  width: 908px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+input#user,
+input#pass {
+  background-color: #f1f1f1;
+  padding: 6px 5px;
+  margin-bottom: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: rgb(164, 48, 23);
+  border: 1px solid black;
+  float: left;
+  height: 28px;
+  width: 100px;
+  padding: 0;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 1s;
+}
+
+#submit :hover {
+  background-color: rgb(164, 48, 23);
+}
+
+ol{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7 1fr);
+  padding: 0;
+}
+
+.first-day{
+  grid-column-start: 5;
+}
+
+.day-name{
+  background-color: #eee;
+  font-weight: bold;
+}

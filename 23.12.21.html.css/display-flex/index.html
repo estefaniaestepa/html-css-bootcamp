@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container-1 {
+      width: 800px;
+      height: 600px;
+      margin: 5px;
+      background-color: pink;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .subcontainer-2 {
+      width: 200px;
+      height: 590px;
+      margin: 5px;
+      background-color: purple;
+    }
+
+    .item-3 {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      background-color: green;
+    }
+
+    .vertical {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-1">
+    <div class="subcontainer-2">
+    </div>
+
+    <div class="subcontainer-2 vertical">
+      <div class="item-3"></div>
+      <div class="item-3"></div>
+      <div class="item-3"></div>
+    </div>
+
+  </div>
+</body>
+
+</html>
